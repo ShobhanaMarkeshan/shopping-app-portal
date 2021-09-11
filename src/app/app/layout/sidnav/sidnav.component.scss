@@ -1,0 +1,9 @@
+.example-container {
+  height: calc(100% - 40px);
+}
+
+.mat-drawer:not(.mat-drawer-side) {
+  min-width: 200px !important;
+  width: 85vw !important;
+  max-width: 250px !important;
+}
