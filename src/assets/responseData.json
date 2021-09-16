@@ -1,0 +1,503 @@
+[
+    {
+        "id": 1,
+        "main_category": "Pantry",
+        "sub-category": [
+            {
+                "id": 11,
+                "name": "Cooking Essentials",
+                "is-add-to-cart": false,
+                "category-item": [
+                    {
+                        "id": 111,
+                        "name": "Atta & Flour",
+                        "is-add-to-cart": false,
+                        "item": [
+                            {
+                                "id": 1111,
+                                "name": "Aashirvaad",
+                                "price": 221,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1112,
+                                "name": "Pillsburt Atta",
+                                "price": 231,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1113,
+                                "name": "Organic Atta",
+                                "price": 215,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1114,
+                                "name": "Tata Besan",
+                                "price": 104,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1115,
+                                "name": "Pro Bature Organic Maida",
+                                "price": 84,
+                                "is-add-to-cart": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 112,
+                        "name": "Rice",
+                        "is-add-to-cart": false,
+                        "item": [
+                            {
+                                "id": 1121,
+                                "name": "Daawat Rozana Super Basmati Rice",
+                                "price": 299,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1122,
+                                "name": "Fortune Hamesha Basmati Rice",
+                                "price": 273,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1123,
+                                "name": "India Gate Basmati Rice",
+                                "price": 315,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1124,
+                                "name": "Tata Sampann Red Rice",
+                                "price": 56,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1125,
+                                "name": "Kohinoor Authentic Briyani rice",
+                                "price": 84,
+                                "is-add-to-cart": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 113,
+                        "name": "Dals & Pulses",
+                        "is-add-to-cart": false,
+                        "item": [
+                            {
+                                "id": 1131,
+                                "name": "Moong Dal",
+                                "price": 152,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1132,
+                                "name": "Green Moong Dal",
+                                "price": 76,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1133,
+                                "name": "Oranic Ragi Whole",
+                                "price": 60,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1134,
+                                "name": "Pro Natural Raw Peanuts",
+                                "price": 134,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1135,
+                                "name": "Fortune Soya Chunks",
+                                "price": 150,
+                                "is-add-to-cart": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 114,
+                        "name": "oils & ghee",
+                        "is-add-to-cart": false,
+                        "item": [
+                            {
+                                "id": 1141,
+                                "name": "Saffola Cooking Oil",
+                                "price": 221,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1142,
+                                "name": "Nestle Everyday Ghee",
+                                "price": 449,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1143,
+                                "name": "Nandhini Pure Ghee",
+                                "price": 450,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1144,
+                                "name": "Organic Pressed Groundnut/Peanut Oil",
+                                "price": 304,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1145,
+                                "name": "Organic Sesame Oil",
+                                "price": 470,
+                                "is-add-to-cart": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 115,
+                        "name": "spices",
+                        "is-add-to-cart": false,
+                        "item": [
+                            {
+                                "id": 1151,
+                                "name": "Vedaka Cumin",
+                                "price": 54,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1152,
+                                "name": "Turmeric Powder",
+                                "price": 54,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1153,
+                                "name": "Chilli Powder",
+                                "price": 67,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1154,
+                                "name": "Garam Masala",
+                                "price": 36,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1155,
+                                "name": "Mustard Seeds Powder",
+                                "price": 28,
+                                "is-add-to-cart": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 116,
+                        "name": "salt & sugar",
+                        "is-add-to-cart": false
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "Packaged Food",
+                "is-add-to-cart": false,
+                "category-item": [
+                    {
+                        "id": 211,
+                        "name": "biscuts",
+                        "is-add-to-cart": false,
+                        "item": [
+                            {
+                                "id": 1211,
+                                "name": "Parle Rusk Elaichi",
+                                "price": 36,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1212,
+                                "name": "Dark Fantasy Choco fills",
+                                "price": 85,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1213,
+                                "name": "Cadbury Oreo Chocolatey",
+                                "price": 60,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1214,
+                                "name": "Sunfeast Mom's Magic Cashew and Almond",
+                                "price": 84,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1215,
+                                "name": "Unibic Cashwe Badam Cookies",
+                                "price": 66,
+                                "is-add-to-cart": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 212,
+                        "name": "breakfast essentials",
+                        "is-add-to-cart": false,
+                        "item": [
+                            {
+                                "id": 1221,
+                                "name": "Kellogg's Chocos Moons & Stars",
+                                "price": 221,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1222,
+                                "name": "Nestle Koko Krunch Breatfast Cereal",
+                                "price": 231,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1223,
+                                "name": "Bagrry's Choco Delight Muesli",
+                                "price": 215,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1224,
+                                "name": "Kellogg's Corn Flakes",
+                                "price": 104,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1225,
+                                "name": "Quaker Oats",
+                                "price": 84,
+                                "is-add-to-cart": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 213,
+                        "name": "noodles & pasta",
+                        "is-add-to-cart": false,
+                        "item": [
+                            {
+                                "id": 1231,
+                                "name": "Maggi 2-Mins Noodles",
+                                "price": 132,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1232,
+                                "name": "Maggi Nutri-Licious Masala Veg Atta Noodls",
+                                "price": 231,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1233,
+                                "name": "Sunfeast Yippe",
+                                "price": 215,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1234,
+                                "name": "MTR Seviyan Vermiselli",
+                                "price": 104,
+                                "is-add-to-cart": true
+                            },
+                            {
+                                "id": 1235,
+                                "name": "Quaker Oats",
+                                "price": 84,
+                                "is-add-to-cart": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 214,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    },
+                    {
+                        "id": 215,
+                        "name": "spreads and ketchup",
+                        "is-add-to-cart": false,
+                        "item": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "main_category": "Fashion",
+        "sub-category": [
+            {
+                "id": 21,
+                "name": "Ladies",
+                "is-add-to-cart": false,
+                "category-item": [
+                    {
+                        "id": 211,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    },
+                    {
+                        "id": 212,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "name": "Kids",
+                "is-add-to-cart": false,
+                "category-item": [
+                    {
+                        "id": 221,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    },
+                    {
+                        "id": 222,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "main_category": "Electronics",
+        "sub-category": [
+            {
+                "id": 31,
+                "name": "Laptop",
+                "is-add-to-cart": false,
+                "category-item": [
+                    {
+                        "id": 311,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    },
+                    {
+                        "id": 312,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "name": "Mobile",
+                "is-add-to-cart": false,
+                "category-item": [
+                    {
+                        "id": 321,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    },
+                    {
+                        "id": 322,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "main_category": "Home",
+        "sub-category": [
+            {
+                "id": 41,
+                "name": "Chair",
+                "is-add-to-cart": false,
+                "category-item": [
+                    {
+                        "id": 411,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    },
+                    {
+                        "id": 412,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "name": "Cupboard",
+                "is-add-to-cart": false,
+                "category-item": [
+                    {
+                        "id": 421,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    },
+                    {
+                        "id": 422,
+                        "name": "chips & local snacks",
+                        "is-add-to-cart": false,
+                        "item": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "main_category": "Appliances",
+        "sub-category": [
+            {
+                "id": 51,
+                "name": "",
+                "is-add-to-cart": false,
+                "category-item": []
+            },
+            {
+                "id": 52,
+                "name": "",
+                "is-add-to-cart": false,
+                "category-item": []
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "main_category": "Sports & Fitness",
+        "sub-category": [
+            {
+                "id": 61,
+                "name": "",
+                "is-add-to-cart": false,
+                "category-item": []
+            },
+            {
+                "id": 62,
+                "name": "",
+                "is-add-to-cart": false,
+                "category-item": []
+            }
+        ]
+    }
+]

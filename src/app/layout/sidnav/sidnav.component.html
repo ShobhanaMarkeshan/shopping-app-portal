@@ -1,0 +1,28 @@
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side" opened="true" position="start" disableClose="true">
+        <mat-expansion-panel *ngFor="let mainCategory of response; index as mainCat" (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{mainCategory['main_category']}}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="panel-body">
+                <a *ngFor="let subCategory of mainCategory['sub-category']; index as subCat"
+                    class="sub-cat p-1 pb-2 pt-2 float-end" (click)="viewItem(subCategory)">
+                    {{subCategory['name']}}
+                    <span class="mat-expansion-indicator" style="transform: rotate(180deg);"></span>
+                </a>
+            </div>
+        </mat-expansion-panel>
+    </mat-drawer>
+
+    <div class="example-sidenav-content">
+        <div class="m-2">
+            <!-- <button mat-button (click)="drawer.toggle()">
+                Toggle sidenav
+            </button> -->
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</mat-drawer-container>

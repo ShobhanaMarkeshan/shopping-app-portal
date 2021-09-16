@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LayoutComponent } from './app/layout/layout.component';
-import { RoutesComponent } from './app/routes/routes.component';
+import { LayoutComponent } from './layout/layout.component';
+import { RoutesComponent } from './routes/routes.component';
+import { HomeComponent } from './routes/home/home.component';
+import { ViewItemComponent } from './routes/viewItem/view-item.component';
 
 const routes: Routes = [
   {
@@ -10,11 +12,15 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: RoutesComponent
+        component: HomeComponent
       },
       {
         path: 'home',
-        component: RoutesComponent
+        component: HomeComponent
+      },
+      {
+        path: 'item/:id',
+        component: ViewItemComponent
       }
     ]
   }

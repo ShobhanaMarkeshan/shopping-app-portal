@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { faStore, faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -9,7 +10,9 @@ import { faStore, faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 export class HeaderComponent implements OnInit {
   faStore = faStore;
   loginIcon = faSignInAlt;
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
   }

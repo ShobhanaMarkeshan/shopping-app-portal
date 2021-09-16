@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BackendApiService } from '../services/backend-api.service';
 
 @Component({
   selector: 'app-routes',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RoutesComponent implements OnInit {
 
-  constructor() { }
+  response: any;
+  constructor(
+    private api: BackendApiService
+  ) { }
 
   ngOnInit(): void {
+    this.api.getJSON().subscribe(data => {
+      this.response = data;
+      console.log(data);
+
+    });
   }
 
 }
